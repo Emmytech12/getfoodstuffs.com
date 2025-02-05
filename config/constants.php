@@ -4,7 +4,7 @@
 	$thename='Get Food Stuffs'; 
 
 	$website_url='http://localhost/projects/getfoodstuffs.com';
-	//$website_url='http://192.168.179.51/projects/getfoodstuffs.com';
+	//$website_url='http://192.168.0.186/projects/getfoodstuffs.com';
 	//$website_url='https://getfoodstuffs.com';
 	$code_version= date('Ymdhis');
 ?>
@@ -14,6 +14,8 @@
 	//////////////////online constants///////////////////////
 	//var website_url='https://getfoodstuffs.com';
 	var website_url='http://localhost/projects/getfoodstuffs.com';
-	//var website_url='http://192.168.179.51/projects/getfoodstuffs.com';
+	//var website_url='http://192.168.0.186/projects/getfoodstuffs.com';
+
+	var indexLocalUrl=website_url+'/config/code'; /// For Site local_url //
 </script>
 

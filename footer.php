@@ -20,13 +20,13 @@
                 <ul>
                     <a href="<?php echo $website_url?>" title="Sign Up/Login">
                     <li><i class="bi-arrow-right-short"></i>Sign Up/Login</li></a>
-                    <a href="<?php echo $website_url?>" title="About Us">
+                    <a href="<?php echo $website_url?>/about" title="About Us">
                     <li><i class="bi-arrow-right-short"></i> About Us</li></a>
-                    <a href="<?php echo $website_url?>" title="Contact Us">
+                    <a href="<?php echo $website_url?>/contact" title="Contact Us">
                     <li><i class="bi-arrow-right-short"></i> Contact Us</li></a>
-                    <a href="<?php echo $website_url?>" title="Blog & Articles">
+                    <a href="<?php echo $website_url?>/blog/" title="Blog & Articles">
                     <li><i class="bi-arrow-right-short"></i> Blog & Articles</li></a>
-                    <a href="<?php echo $website_url?>" title="Frequently Asked Questions">
+                    <a href="<?php echo $website_url?>/faq" title="Frequently Asked Questions">
                     <li><i class="bi-arrow-right-short"></i> Frequently Asked Questions</li></a>  
                     <a href="<?php echo $website_url?>" title="Terms And Conditions">
                     <li><i class="bi-arrow-right-short"></i> Terms And Conditions</li></a> 
@@ -52,16 +52,6 @@
                     <li><i class="bi-arrow-right-short"></i> Seasonings & Spices</li></a> 
                     <a href="<?php echo $website_url?>" title="Veggies">
                     <li><i class="bi-arrow-right-short"></i> Veggies</li></a> 
-                    <!-- <a href="<?php echo $website_url?>" title="Tubers">
-                    <li><i class="bi-arrow-right-short"></i> Tubers</li></a>
-                    <a href="<?php echo $website_url?>" title="Hampers">
-                    <li><i class="bi-arrow-right-short"></i> Hampers</li></a> 
-                    <a href="<?php echo $website_url?>" title="Edible Oil">
-                    <li><i class="bi-arrow-right-short"></i> Edible Oil</li></a> 
-                    <a href="<?php echo $website_url?>" title="Grains & Seeds">
-                    <li><i class="bi-arrow-right-short"></i> Grains & Seeds</li></a>   -->
-                   
-                   
                 </ul>
             </div>
 

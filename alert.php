@@ -5,7 +5,7 @@
     </div>
 </div>
 
-<div id="get-more-div" onclick="_alert_close(event);">
+<div id="get-more-div" onclick="_alertClose(event);">
     <div class="alert-loading-div">
         <div class="icon"><img src="<?php echo $website_url?>/all-images/images/loading.gif" width="20px" alt="Loading"/></div> 
         <div class="text"><p>LOADING...</p></div>
@@ -117,17 +117,22 @@
         </div>
 
         <div class="div">
-            <a href="<?php echo $website_url;?>" title="Blog">
+            <a href="<?php echo $website_url;?>/about" title="Blog">
+            <li <?php if ($page=='about') {?> id="active-li"<?php }?>><i class="bi-building"></i> About Us</li></a>
+        </div>
+
+        <div class="div">
+            <a href="<?php echo $website_url;?>/blog/" title="Blog">
             <li <?php if ($page=='blog') {?> id="active-li"<?php }?>><i class="bi-journals"></i> Blog</li></a>
         </div>
 
         <div class="div">
-            <a href="<?php echo $website_url;?>" title="Blog">
+            <a href="<?php echo $website_url;?>/contact" title="Blog">
             <li <?php if ($page=='contact-us') {?> id="active-li"<?php }?>><i class="bi-headset"></i> Contact Us</li></a>
         </div>
 
         <div class="div">
-            <a href="<?php echo $website_url;?>" title="Frequently Asked Questions">
+            <a href="<?php echo $website_url;?>/faq" title="Frequently Asked Questions">
             <li <?php if ($page=='faq') {?> id="active-li"<?php }?>><i class="bi-patch-question"></i> Frequently Asked Question</li></a>
         </div>
 

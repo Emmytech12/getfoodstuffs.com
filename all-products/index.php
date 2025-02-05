@@ -90,7 +90,7 @@
                                             </div>
 
                                             <div class="btn-div">
-                                                <button class="cart-btn" title="Add to Cart"><i class="bi-cart"></i></button>
+                                                <button class="cart-btn" title="Add to Cart" onclick="_getFormWithId('cart_form');"><i class="bi-cart"></i></button>
 
                                                 <a href="<?php echo $website_url?>/all-products/5l-palm-oil-keg" title="5L PALM OIL + KEG">
                                                 <button class="btn" title="View Details">View Details</button></a>

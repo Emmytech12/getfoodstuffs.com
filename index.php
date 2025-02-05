@@ -207,7 +207,7 @@
                                         </div>
 
                                         <div class="btn-div">
-                                            <button class="cart-btn" title="Add to Cart"><i class="bi-cart"></i></button>
+                                            <button class="cart-btn" title="Add to Cart" onclick="_getFormWithId('cart_form');"><i class="bi-cart"></i></button>
 
                                             <a href="<?php echo $website_url?>/all-products/5l-palm-oil-keg" title="5L PALM OIL + KEG">
                                             <button class="btn" title="View Details">View Details</button></a>
@@ -477,8 +477,8 @@
                                 <button class="carousel-btn" title="Next" id="js-carousel__next_2"><i class="bi-chevron-double-right"></i></button>
                             </div>
 
-                            <a href="<?php echo $website_url?>" title="View All">
-                            <button class="btn" title="View All">View All</button></a>
+                            <a href="<?php echo $website_url?>" title="View All Combo Products">
+                            <button class="btn" title="View All Combo Products">View All</button></a>
                         </div>
                     </div>
 
@@ -704,7 +704,7 @@
                                     </div>
 
                                 </div>
-                                <a href="<?php echo $website_url ?>" title="Read More FAQ">
+                                <a href="<?php echo $website_url?>/faq" title="Read More FAQ">
                                     <button class="btn" title="Read More FAQ">Read More FAQ <i
                                             class="bi-chevron-right"></i></button></a>
                             </div>

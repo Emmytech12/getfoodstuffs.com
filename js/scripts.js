@@ -86,8 +86,21 @@ function _open_li(ids){
 	$('#'+ids+'-sub-li').toggle('slow');
 }
 
-function alert_close(){
+function _alertClose2(){
 	$('#get-more-div').html('').fadeOut(200);
+}
+
+function _alertClose(event) {
+	var targetElement = event.target;
+	if (!targetElement.closest('.cart-form-back-div')) {
+	  let text = '';
+	  text +=
+	  '<div class="alert-loading-div">' +
+		'<div class="icon"><img src="'+ website_url +'/all-images/images/loading.gif" width="20px" alt="Loading"/></div>' +
+		'<div class="text"><p>LOADING...</p></div>'+
+		'</div>';
+	  $('#get-more-div').html(text).fadeOut(200);
+	}
 }
 
 function _actionAlert(message,status){
@@ -160,6 +173,10 @@ function _viewPreviewImg(divid) {
 	$("#product_preview").html(view_pix).fadeIn(3000);
 }
 
+function _viewBlogPreviewImg(divid) {
+	const view_pix = $("#" + divid).html();
+	$("#blog_preview").html(view_pix).fadeIn(3000);
+}
 
 function _slideImages(){
     $(document).ready(function () {
@@ -212,11 +229,15 @@ function _selectOption(selectBoxId) {
     }
 }
 document.addEventListener('click', (e) => {
-	const selectContainer = document.querySelector('#selectContainer');
-	const searchPanel = document.querySelector('.searchPanel');
-	if (!selectContainer.contains(e.target)) {
-	  searchPanel.style.display = 'none';
-	}
+    document.querySelectorAll('.text_field_container').forEach(container => {
+        // If the click is not inside the container, hide its search panel.
+        if (!container.contains(e.target)) {
+            const searchPanel = container.querySelector('.searchPanel');
+            if (searchPanel) {
+                searchPanel.style.display = 'none';
+            }
+        }
+    });
 });
 function filter(selectBoxId) {
 	var valThis = $('#txtSearchValue_'+selectBoxId).val();
@@ -300,26 +321,40 @@ function _getActiveNextCatPage(text) {
 	$('#next-'+text).addClass('active');
 }
 
-
 function _nextCatPage(next_id,text) {
 	_getActiveNextCatPage(text);
 	$("#edible-hide-div, #tubers-hide-div").hide();
 	$("#" + next_id).fadeIn(1000);
 }
 
-
-
 function _getActiveNextAboutProductPage(text) {
 	$('#next-details, #next-reviews').removeClass('active');
 	$('#next-'+text).addClass('active');
 }
-
 
 function _nextAboutProductPage(next_id,text) {
 	_getActiveNextAboutProductPage(text);
 	$("#details-hide-div, #reviews-hide-div").hide();
 	$("#" + next_id).fadeIn(1000);
 }
+
+
+function _getActiveNextContactPage(text) {
+	$('#next-ogun').removeClass('active');
+	$('#next-'+text).addClass('active');
+}
+
+function _nextContactPage(next_id,text) {
+	_getActiveNextContactPage(text);
+	$("#ogun-hide-div").hide();
+	$("#" + next_id).fadeIn(1000);
+}
+
+function _getLogistics(div_id) {
+	$('#pickup-div, #delivery-div').hide();
+	$('#' + div_id).fadeIn(1000);
+}
+
 
 function _get_form(page) {
 	$("#get-form-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}) .fadeIn(500);
@@ -338,14 +373,14 @@ function _get_form(page) {
 }
   
   
-function _get_form_with_id(page, ids) {
-	$("#get-more-div").css('display', 'flex').fadeIn(500);
+function _getFormWithId(page, ids) {
+	$("#get-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}).fadeIn(500);
 	var action = "get_form_with_id";
 	var dataString = "action=" + action + "&page=" + page + "&ids=" + ids;
 
 	$.ajax({
 		type: "POST",
-		url: index_local_url,
+		url: indexLocalUrl,
 		data: dataString,
 		cache: false,
 		success: function (html) {

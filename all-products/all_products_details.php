@@ -26,7 +26,7 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="other-pages-back-div">
-                    <div class="nav-title">
+                    <div class="nav-title" data-aos="fade-in" data-aos-duration="1200">
                         <ul>
                             <a href="<?php echo $website_url?>"><li title="Home">Home <i class="bi-caret-right-fill"></i></li></a>
                             <a href="<?php echo $website_url?>/all-products/"><li title="All Products">All Products <i class="bi-caret-right-fill"></i></li></a>
@@ -44,23 +44,23 @@
 
                                     <div class="other-product-image-div">
                                         <div class="inner-img-container"> 
-                                            <div class="each-image-div" title="Click to Preview" id="img1" onclick="_viewPreviewImg('img1')">
+                                            <div class="each-image-div" title="Click to Preview" id="img1" onclick="_viewPreviewImg('img1');">
                                                 <img src="<?php echo $website_url ?>/all-images/products-pix/palm-oil.jpg" alt="<?php echo $thename ?> PALM OIL" />
                                             </div>
 
-                                            <div class="each-image-div" title="Click to Preview" id="img2" onclick="_viewPreviewImg('img2')">
+                                            <div class="each-image-div" title="Click to Preview" id="img2" onclick="_viewPreviewImg('img2');">
                                                 <img src="<?php echo $website_url ?>/all-images/products-pix/terra.jpg" alt="<?php echo $thename ?> PALM OIL" />
                                             </div>
 
-                                            <div class="each-image-div" title="Click to Preview" id="img3" onclick="_viewPreviewImg('img3')">
+                                            <div class="each-image-div" title="Click to Preview" id="img3" onclick="_viewPreviewImg('img3');">
                                                 <img src="<?php echo $website_url ?>/all-images/products-pix/palm-oil.jpg" alt="<?php echo $thename ?> PALM OIL" />
                                             </div>
 
-                                            <div class="each-image-div" title="Click to Preview" id="img4" onclick="_viewPreviewImg('img4')">
+                                            <div class="each-image-div" title="Click to Preview" id="img4" onclick="_viewPreviewImg('img4');">
                                                 <img src="<?php echo $website_url ?>/all-images/products-pix/palm-oil.jpg" alt="<?php echo $thename ?> PALM OIL" />
                                             </div>
                                            
-                                            <div class="each-image-div" title="Click to Preview" id="img5" onclick="_viewPreviewImg('img5')">
+                                            <div class="each-image-div" title="Click to Preview" id="img5" onclick="_viewPreviewImg('img5');">
                                                 <img src="<?php echo $website_url ?>/all-images/products-pix/palm-oil.jpg" alt="<?php echo $thename ?> PALM OIL" />
                                             </div>
                                         </div>
@@ -104,9 +104,7 @@
 
                                     <div class="btn-div">
                                         <button class="btn cart-btn" title="Add to Cart"><i class="bi-cart"></i> Add to Cart</button>
-
-                                        <a href="<?php echo $website_url?>/all-products/" title="Continue Shopping">
-                                        <button class="btn" title="Continue Shopping"><i class="bi-basket"></i> Continue Shopping</button></a>
+                                        <button class="btn" title="Continue Shopping" onclick="_alertClose2();"><i class="bi-basket"></i> Continue Shopping</button>
                                     </div>
                                 </div>
                             </div>
