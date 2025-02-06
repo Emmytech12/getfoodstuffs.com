@@ -92,7 +92,7 @@
                                             <label for="quantity">Quantity</label>
                                             <div class="quantity-controls">
                                                 <button class="btn decrease" id="decrease">−</button>
-                                                <input type="number" id="quantity" value="1">
+                                                <input type="text" id="quantity" value="1">
                                                 <button class="btn increase" id="increase">+</button>
                                             </div>
 

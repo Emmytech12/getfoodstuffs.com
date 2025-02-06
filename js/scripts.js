@@ -254,6 +254,14 @@ function _clickOption(selectedOption, id, value) {
 };
     
 
+function filters(selectBoxId) {
+	var valThis = $('#search'+selectBoxId).val();
+	$('#fetchAll'+selectBoxId+' > a').each(function() {
+		var text = $(this).text();
+		(text.toLowerCase().indexOf(valThis.toLowerCase()) > -1) ? $(this).show(): $(this).hide();
+      });
+    };
+
 function _increaseAndDecreaseCart() {
 	$("#decrease").click(function () {
 		let currentValue = parseInt($("#quantity").val(), 10) || 1;

@@ -55,8 +55,8 @@
         </div>
 
         <div class="bottom-container">
-            <div class="prodct-summary" data-aos="fade-in" data-aos-duration="1200"><p>As a Nigerian student, juggling school, assignments, and daily life can be overwhelming. That's why <strong>Get Food Stuffs</strong> is here—to make your life easier by delivering fresh, affordable raw food straight to your hostel, dorm, or apartment.</p></div>
-            <div class="list-back-div" data-aos="fade-up" data-aos-duration="1200">
+            <div class="prodct-summary animated fadeIn"><p>As a Nigerian student, juggling school, assignments, and daily life can be overwhelming. That's why <strong>Get Food Stuffs</strong> is here—to make your life easier by delivering fresh, affordable raw food straight to your hostel, dorm, or apartment.</p></div>
+            <div class="list-back-div animated fadeInUp">
                 <div class="list-div">
                     <div class="image-div">
                         <img src="<?php echo $website_url ?>/all-images/product-categories/edible_oil.jpeg" alt="<?php echo $thename ?> Slide Image" />

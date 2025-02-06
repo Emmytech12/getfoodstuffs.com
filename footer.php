@@ -27,7 +27,9 @@
                     <a href="<?php echo $website_url?>/blog/" title="Blog & Articles">
                     <li><i class="bi-arrow-right-short"></i> Blog & Articles</li></a>
                     <a href="<?php echo $website_url?>/faq" title="Frequently Asked Questions">
-                    <li><i class="bi-arrow-right-short"></i> Frequently Asked Questions</li></a>  
+                    <li><i class="bi-arrow-right-short"></i> Frequently Asked Questions</li></a>
+                    <a href="<?php echo $website_url?>/product-categories" title="Product Categories">
+                    <li><i class="bi-arrow-right-short"></i> Product Categories</li></a>
                     <a href="<?php echo $website_url?>" title="Terms And Conditions">
                     <li><i class="bi-arrow-right-short"></i> Terms And Conditions</li></a> 
                     <a href="<?php echo $website_url?>" title="Privacy Policy">
@@ -52,6 +54,8 @@
                     <li><i class="bi-arrow-right-short"></i> Seasonings & Spices</li></a> 
                     <a href="<?php echo $website_url?>" title="Veggies">
                     <li><i class="bi-arrow-right-short"></i> Veggies</li></a> 
+                    <a href="<?php echo $website_url?>" title="Grains & Seeds">
+                    <li><i class="bi-arrow-right-short"></i> Grains & Seeds</li></a>
                 </ul>
             </div>
 
