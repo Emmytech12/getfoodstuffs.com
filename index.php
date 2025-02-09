@@ -477,7 +477,7 @@
                                 <button class="carousel-btn" title="Next" id="js-carousel__next_2"><i class="bi-chevron-double-right"></i></button>
                             </div>
 
-                            <a href="<?php echo $website_url?>" title="View All Combo Products">
+                            <a href="<?php echo $website_url?>/combo/" title="View All Combo Products">
                             <button class="btn" title="View All Combo Products">View All</button></a>
                         </div>
                     </div>

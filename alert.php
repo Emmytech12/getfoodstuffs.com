@@ -117,6 +117,11 @@
         </div>
 
         <div class="div">
+            <a href="<?php echo $website_url;?>/combo/" title="Combo">
+            <li <?php if ($page=='combo') {?> id="active-li"<?php }?>><i class="bi-flower1"></i>Combo</li></a>
+        </div>
+
+        <div class="div">
             <a href="<?php echo $website_url;?>/about" title="Blog">
             <li <?php if ($page=='about') {?> id="active-li"<?php }?>><i class="bi-building"></i> About Us</li></a>
         </div>

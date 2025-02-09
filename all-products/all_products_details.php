@@ -104,7 +104,8 @@
 
                                     <div class="btn-div">
                                         <button class="btn cart-btn" title="Add to Cart"><i class="bi-cart"></i> Add to Cart</button>
-                                        <button class="btn" title="Continue Shopping" onclick="_alertClose2();"><i class="bi-basket"></i> Continue Shopping</button>
+                                        <a href="<?php echo $website_url?>/all-products/" title="View All Products">
+                                        <button class="btn" title="Continue Shopping"><i class="bi-basket"></i> Continue Shopping</button></a>
                                     </div>
                                 </div>
                             </div>

@@ -296,18 +296,24 @@ function _starReview() {
 	});
 }
 
-$(document).ready(function () {
-    let testDiv = $("<div>").css({ display: "flex", gap: "10px" }).appendTo("body");
+function _headerHover() {
+    $(".inner-right-div").hide();
+    $("#edible_oil_child_id").show();
 
-    if (testDiv.css("gap") !== "10px") {
-        // If flex gap is NOT supported, apply margin fallback
-        $("[style*='display: flex'], [style*='display:flex']").each(function () {
-            $(this).children().not(":last-child").css("margin-right", "10px");
-        });
-    }
+    $(".cat-list-div").mouseenter(function () {
+        let selectedCategory = $(this).data("category"); 
+        let targetSection = $("#" + selectedCategory + "_child_id");
 
-    testDiv.remove();
-});
+        if (targetSection.length) {
+            $(".inner-right-div").hide();
+            targetSection.fadeIn(500);
+
+            $(".cat-list-div").removeClass("active"); 
+            $(this).addClass("active");
+        }
+    });
+}
+
 
 
 function textField(id, title, type = "text") {
