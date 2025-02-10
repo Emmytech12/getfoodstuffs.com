@@ -494,8 +494,41 @@
                                                     <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
                                                 </div>
 
-                                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                                    <h2>STOCK ME UP - FAMILY</h2>
+                                                <div class="text-container" title="STOCK ME UP - FAMILY KITCHEN">
+                                                    <h2>STOCK ME UP - FAMILY KITCHEN</h2>
+
+                                                    <div class="rate-div">
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <span>(12)</span>
+                                                    </div>
+
+                                                    <div class="price-div">
+                                                        Price
+                                                        <span>₦120,000.00</span>
+                                                    </div>
+                                                    
+                                                    <a href="<?php echo $website_url?>/combo/stock-me-up-family" title="View Details">
+                                                    <div class="btn-div">
+                                                        <button class="btn" title="View Details">View Details</button>
+                                                    </div></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cg-carousel__slide js-carousel__slide" data-aos="fade-left" data-aos-duration="1200">
+                                        <div class="product-container combo-product-conatiner">
+                                            <div class="div-in">
+                                                <div class="image-container">
+                                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                                </div>
+
+                                                <div class="text-container" title="STOCK ME UP - FAMILY KITCHEN">
+                                                    <h2>STOCK ME UP - FAMILY KITCHEN</h2>
 
                                                     <div class="rate-div">
                                                         <i class="bi-star-fill"></i>
@@ -527,8 +560,8 @@
                                                     <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
                                                 </div>
 
-                                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                                    <h2>STOCK ME UP - FAMILY</h2>
+                                                <div class="text-container" title="STOCK ME UP - FAMILY KITCHEN">
+                                                    <h2>STOCK ME UP - FAMILY KITCHEN</h2>
 
                                                     <div class="rate-div">
                                                         <i class="bi-star-fill"></i>
@@ -560,41 +593,8 @@
                                                     <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
                                                 </div>
 
-                                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                                    <h2>STOCK ME UP - FAMILY</h2>
-
-                                                    <div class="rate-div">
-                                                        <i class="bi-star-fill"></i>
-                                                        <i class="bi-star-fill"></i>
-                                                        <i class="bi-star-fill"></i>
-                                                        <i class="bi-star-fill"></i>
-                                                        <i class="bi-star-fill"></i>
-                                                        <span>(12)</span>
-                                                    </div>
-
-                                                    <div class="price-div">
-                                                        Price
-                                                        <span>₦120,000.00</span>
-                                                    </div>
-                                                    
-                                                    <a href="<?php echo $website_url?>" title="View Details">
-                                                    <div class="btn-div">
-                                                        <button class="btn" title="View Details">View Details</button>
-                                                    </div></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="cg-carousel__slide js-carousel__slide" data-aos="fade-left" data-aos-duration="1200">
-                                        <div class="product-container combo-product-conatiner">
-                                            <div class="div-in">
-                                                <div class="image-container">
-                                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
-                                                </div>
-
-                                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                                    <h2>STOCK ME UP - FAMILY</h2>
+                                                <div class="text-container" title="STOCK ME UP - FAMILY KITCHEN">
+                                                    <h2>STOCK ME UP - FAMILY KITCHEN</h2>
 
                                                     <div class="rate-div">
                                                         <i class="bi-star-fill"></i>

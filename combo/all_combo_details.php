@@ -29,8 +29,8 @@
                     <div class="nav-title" data-aos="fade-in" data-aos-duration="1200">
                         <ul>
                             <a href="<?php echo $website_url?>"><li title="Home">Home <i class="bi-caret-right-fill"></i></li></a>
-                            <a href="<?php echo $website_url?>/all-products/"><li title="All Products">All Combos <i class="bi-caret-right-fill"></i></li></a>
-                            <li class="li" title="Stock Me Up Family">Stock Me Up Family</li>				
+                            <a href="<?php echo $website_url?>/combo/"><li title="All Combos">All Combos <i class="bi-caret-right-fill"></i></li></a>
+                            <li class="li" title="Stock Me Up-Family Kitchen">Stock Me Up-Family Kitchen</li>				
                         </ul>
                     </div>
                     
@@ -74,7 +74,7 @@
                                 <div class="product-detail-content">
                                     <div class="details-list">
                                         <span>Combo Name</span>
-                                        <h4>STOCK ME UP FAMILY</h4>
+                                        <h4>STOCK ME UP - FAMILY KITCHEN</h4>
                                     </div>
 
                                     <div class="details-list">
@@ -380,11 +380,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/palm-oil.jpg" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="5L PALM OIL + KEG">
+                                    <h2>5L PALM OIL + KEG</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -401,11 +401,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/terra.jpg" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="GOLDEN TERRA SOYA OIL 4.5L">
+                                    <h2>GOLDEN TERRA SOYA OIL 4.5L</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -422,11 +422,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/devon.jpg" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="DEVON KINGS VEG. OIL 25L">
+                                    <h2>DEVON KINGS VEG. OIL 25L</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -443,11 +443,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/yam-medium.png" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
                                 <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                    <h2>YAM - MEDIUM SIZE ( 3 PIECES)</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -464,11 +464,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/yam-big1.png" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="YAM - BIG SIZE (3 PIECES)">
+                                    <h2>YAM - BIG SIZE (3 PIECES)</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -485,11 +485,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/yam-medium2.png" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="YAM - MEDIUM SIZE (1 PIECE)">
+                                    <h2>YAM - MEDIUM SIZE (1 PIECE)</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -506,11 +506,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/gino.jpg" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
-                                <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                <div class="text-container" title="GINO PEPPER & ONION SACHET X 50">
+                                    <h2>GINO PEPPER & ONION SACHET X 50</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
@@ -527,11 +527,11 @@
                         <div class="product-container main-combo-product-conatiner">
                             <div class="div-in">
                                 <div class="image-container">
-                                    <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
+                                    <img src="<?php echo $website_url ?>/all-images/products-pix/milo.webp" alt="<?php echo $thename ?> Slide Image" />
                                 </div>
 
                                 <div class="text-container" title="STOCK ME UP - FAMILY">
-                                    <h2>STOCK ME UP - FAMILY</h2>
+                                    <h2>NESTLE MILO SACHET (3 IN 1) 30G X 10</h2>
 
                                     <div class="rate-div">
                                         <i class="bi-star-fill"></i>
