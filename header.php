@@ -105,7 +105,6 @@
                             <div class="right-wrapper">
                                 <div id="edible_oil_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>
@@ -117,29 +116,24 @@
                                                     </a>
                                                     <a href="<?php echo $website_url?>" title="Mamador Veg. Oil Carton 2.5l X 4">   
                                                         <li>Mamador Veg. Oil Carton 2.5l X 4</li>                               
-                                                    </a>
-                                                    <a href="<?php echo $website_url?>" title="Devon Kings Veg. Oil Carton 750ml X 12">   
-                                                        <li>Devon Kings Veg. Oil Carton 750ml X 12</li>                                
                                                     </a> 
                                                     <a href="<?php echo $website_url?>" title="Mamador Veg. Oil Carton 3.5l X 4">   
                                                         <li>Mamador Veg. Oil Carton 3.5l X 4 </li>                                
                                                     </a>  
                                                     <a href="<?php echo $website_url?>" title="Laziz Vegetable Oil 1.6l X 6">   
                                                         <li>Laziz Vegetable Oil 1.6l X 6</li>                                
-                                                    </a> 
-
+                                                    </a>
                                                     <a href="<?php echo $website_url?>" title="Laziz Vegetable Oil 1.6l X 6">   
                                                         <li>Laziz Vegetable Oil 1.6l X 6</li>                                
                                                     </a>  
-
                                                     <a href="<?php echo $website_url?>" title="Power Oil 1.4l">                             
                                                         <li>Power Oil 1.4l</li> 
                                                     </a>                                                                          
                                                     <a href="<?php echo $website_url?>" title="Power Oil 1.4 Liters X 8 (1 Carton)">   
                                                         <li>Power Oil 1.4 Liters X 8 (1 Carton)</li>                               
                                                     </a>
-                                                    <a href="<?php echo $website_url?>" title="GOLDEN TERRA SOYA OIL 3L">   
-                                                        <li>GOLDEN TERRA SOYA OIL 3L</li>                               
+                                                    <a href="<?php echo $website_url?>" title="Golden Terra Soya Oil 3l">   
+                                                        <li>Golden Terra Soya Oil 3l</li>                               
                                                     </a>
                                                     <a href="<?php echo $website_url?>" title="Laziz Vegetable Oil 1.6l X 6">   
                                                         <li>Laziz Vegetable Oil 1.6l X 6</li>                                
@@ -153,6 +147,15 @@
                                                     <a href="<?php echo $website_url?>" title="Mamador Veg. Oil Carton 2.5l X 4">   
                                                         <li>Mamador Veg. Oil Carton 2.5l X 4</li>                               
                                                     </a>  
+                                                    <a href="<?php echo $website_url?>" title="Mamador Veg. Oil Carton 2.5l X 4">   
+                                                        <li>Mamador Veg. Oil Carton 2.5l X 4</li>                               
+                                                    </a> 
+                                                    <a href="<?php echo $website_url?>" title="Laziz Vegetable Oil 1.6l X 6">   
+                                                        <li>Laziz Vegetable Oil 1.6l X 6</li>                                
+                                                    </a>  
+                                                    <a href="<?php echo $website_url?>" title="Devon Kings Veg. Oil Carton 750ml X 12">   
+                                                        <li>Devon Kings Veg. Oil Carton 750ml X 12</li>                                
+                                                    </a>
                                                 </ul>
                                             </div>                                                                              
                                         </div>
@@ -171,7 +174,6 @@
 
                                 <div id="tubers_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>
@@ -211,7 +213,6 @@
 
                                 <div id="veggies_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>
@@ -269,7 +270,6 @@
 
                                 <div id="grains_seed_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>
@@ -327,7 +327,6 @@
 
                                 <div id="drinks_beverages_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>
@@ -385,7 +384,6 @@
 
                                 <div id="seasonings_spices_child_id" class="inner-right-div">
                                     <div class="left-prod-wrapper">
-                                        <div class="title-div"><h3>Products</h3></div>
                                         <div class="prod-list-back-div">                                   
                                             <div class="prod-list-div">
                                                 <ul>

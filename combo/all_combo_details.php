@@ -94,13 +94,7 @@
                                             <span>₦6,825.00</span>
                                         </div>
                                     </div>
-                                    
                                     <script>_increaseAndDecreaseCart();</script>
-
-                                    <div class="btn-div">
-                                        <a href="<?php echo $website_url?>/combo/" title="Continue Shopping">
-                                        <button class="btn" title="Continue Shopping"><i class="bi-basket"></i> Continue Shopping</button></a>
-                                    </div>
                                 </div>
                             </div>
 
@@ -357,9 +351,6 @@
                                         <div class="btn-show-hide" id="btn-proceed-show">
                                             <button class="btn" title="MAKE PAYMENT" onclick="" id="payment-btn"><i class="bi-arrow-right"></i> MAKE PAYMENT</button>
                                         </div>
-                                
-                                        <a href="<?php echo $website_url?>/combo/" title="CONTINUE SHOPPING">
-                                        <button class="btn pay-btn" title="Continue Shopping"><i class="bi-basket"></i> CONTINUE SHOPPING</button></a>
                                     </div>
                                 </div>
                             </div>

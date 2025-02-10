@@ -298,7 +298,7 @@ header .header-div-in .right-container .mobile-icon{
     width: 85%;
 	max-width: 1200px;
 	min-height:200px;
-	border-radius: 10px;
+	border-radius: 0px 0px 10px 10px;
 	background:#f7f7ff;
 	overflow: hidden;
 	box-shadow: 0px 3px 5px 5px rgba(218, 218, 218, .2);
@@ -411,7 +411,7 @@ header .header-div-in .right-container .mobile-icon{
 #hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper{
 	display: flex;
 	width: calc(100% - 300px);
-	border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 0px 10px 0px;
 	background: var(--bg-white);
 }
 
@@ -419,8 +419,7 @@ header .header-div-in .right-container .mobile-icon{
 	width: 100%;
 	display: flex;
 	gap: 30px;
-	padding: 20px;
-
+	padding: 25px 20px;
 }
 
 #hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper{
@@ -428,23 +427,6 @@ header .header-div-in .right-container .mobile-icon{
 	flex-direction: column;
 	gap: 20px;
 	width: calc(100% - 280px);
-}
-
-#hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper .title-div{
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	padding-bottom: 8px;
-	line-height: 30px;
-	border-bottom: #f5efef 1px solid;
-}
-
-#hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper .title-div h3{
-	padding: 0px;
-	margin: 0px;
-	font-size: 18px;
-	font-family: sub-title-font;
-	color: var(--sub-body-color);
 }
 
 #hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper .prod-list-back-div{
@@ -462,12 +444,13 @@ header .header-div-in .right-container .mobile-icon{
 
 #hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper .prod-list-back-div .prod-list-div ul li {
 	list-style: none;
-    display: block;
+	display: block;
     text-align: left;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 14px;
-	min-height: 28px;
+	padding: 0px;
     font-family: body-font;
+	border-bottom: 1px dashed transparent;
     color: var(--text-color);
 	-moz-transition:all 0.2s ease-in 02s;
 	transition:all 0.2s ease-in 0.2s;
@@ -478,8 +461,8 @@ header .header-div-in .right-container .mobile-icon{
 
 #hidden-products-container .nav-wrapper .sub-nav-div .right-wrapper .inner-right-div .left-prod-wrapper .prod-list-back-div .prod-list-div ul li:hover{
     color: var(--secondary-color);
+	border-bottom: var(--secondary-color) 1px dashed;
 }
-
 
 
 
@@ -487,7 +470,6 @@ header .header-div-in .right-container .mobile-icon{
 	width: 240px;
   	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	gap: 10px;
 }
