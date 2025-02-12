@@ -17,5 +17,6 @@
 	//var website_url='http://192.168.0.186/projects/getfoodstuffs.com';
 
 	var indexLocalUrl=website_url+'/config/code'; /// For Site local_url //
+	var accountLocalUrl=website_url+'/account/config/code'; /// For Site local_url //
 </script>
 

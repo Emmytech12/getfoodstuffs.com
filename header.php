@@ -458,7 +458,7 @@
                 
                 <div class="hidden-container animated fadeIn">
                     <ul>
-                        <a href="<?php echo $website_url?>" title="Login/Sign Up">
+                        <a href="<?php echo $website_url?>/account/login" title="Login/Sign Up">
                         <li title="Login/Sign Up">Login/Sign Up </li></a>
                     </ul> 
                 </div>

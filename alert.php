@@ -142,7 +142,7 @@
         </div>
 
         <div class="div puple">
-            <a href="<?php echo $website_url;?>" title="Login/Sign Up">
+            <a href="<?php echo $website_url;?>/account/login" title="Login/Sign Up">
             <li <?php if ($page=='login') {?> id="active-li"<?php }?>><i class="bi-person"></i> Login/Sign Up</li></a>
         </div>
     </div>
