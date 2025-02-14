@@ -19,6 +19,22 @@ switch ($action){
 		$page=$_POST['page'];
 		require_once('../content/page-content.php');
 	break;
+
+	case 'get_form':
+		$page=$_POST['page'];
+		require_once('../content/form.php');
+	break;
+
+	case 'get_form_with_id':
+		$page=$_POST['page'];
+		$ids=$_POST['ids'];
+		require_once('../content/form.php');
+	break;
+
+	case 'get_content':
+		$page = trim($_POST['content']);
+		require_once('../content/page-content.php');
+	break;
 }
 ?>
 

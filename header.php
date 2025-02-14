@@ -1,5 +1,5 @@
 <?php include 'alert.php' ?>
-<header class="" data-aos="fade-down" data-aos-duration="900">
+<header data-aos="fade-down" data-aos-duration="900">
     <div class="header-div-in">
         <div class="logo-div">
             <a href="<?php echo $website_url ?>"><img src="<?php echo $website_url ?>/all-images/images/logo.png" alt="<?php echo $thename ?> Logo" class="animated zoomIn" /></a>

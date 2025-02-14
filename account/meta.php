@@ -9,7 +9,12 @@
 <link href="<?php echo $website_url?>/style/animate.css" type="text/css" rel="stylesheet" media="all">
 <link href="<?php echo $website_url?>/style/aos.css" type="text/css" rel="stylesheet" />
 <link href="<?php echo $website_url?>/style/paramount.css?v=<?php echo $code_version?>" type="text/css" rel="stylesheet" />
-<link href="<?php echo $website_url?>/account/style/main-style.css?v=<?php echo $code_version?>" type="text/css" rel="stylesheet" />
+<link href="<?php echo $website_url?>/style/main-style.css?v=<?php echo $code_version?>" type="text/css" rel="stylesheet" />
+<link href="<?php echo $website_url?>/account/style/main-account-style.css?v=<?php echo $code_version?>" type="text/css" rel="stylesheet" />
+<link href="<?php echo $website_url?>/account/style/jquery.datetimepicker.css" type="text/css"rel="stylesheet"/>
 
 <script src="<?php echo $website_url?>/js/jquery-v3.6.1.min.js"></script>
+<script src="<?php echo $website_url?>/js/scripts.js?v=<?php echo $code_version?>"></script>
 <script src="<?php echo $website_url?>/account/js/scripts.js?v=<?php echo $code_version?>"></script>
+<script src="<?php echo $website_url?>/js/aos.js"></script>
+<script src="<?php echo $website_url?>/account/js/jquery.datetimepicker.js"></script>

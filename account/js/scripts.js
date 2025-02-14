@@ -1,5 +1,25 @@
-function alert_close(){
-	$('#get-more-div').html('').fadeOut(200);
+
+function _back_to_top(){
+	event.preventDefault();
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+	return false;
+}
+
+function _open_menu(){
+	$('.sidenavdiv, .sidenavdiv-in').animate({'margin-left':'0'},200);
+	$('.live-chat-back-div').animate({'margin-left':'-100%'},400);
+	$('.index-menu-back-div').animate({'margin-left':'0'},400);
+}
+
+function _open_live_chat(){
+	$('.sidenavdiv, .sidenavdiv-in').animate({'margin-left':'0'},200);
+	$('.index-menu-back-div').animate({'margin-left':'-100%'},400);
+	$('.live-chat-back-div').animate({'margin-left':'0'},400);
+}
+
+function _close_side_nav(){
+	$('.sidenavdiv, .sidenavdiv-in').animate({'margin-left':'-100%'},200);
+	$('.index-menu-back-div,.live-chat-back-div').animate({'margin-left':'-100%'},400);
 }
 
 function _actionAlert(message,status ){
@@ -28,7 +48,7 @@ function _alertClose(){
 		'<div class="icon"><img src="'+ website_url +'/all-images/images/loading.gif" width="20px" alt="Loading"/></div>' +
 		'<div class="text"><p>LOADING...</p></div>'+
 		'</div>';
-	$('#get-more-div').html(text).fadeOut(200);
+	$('#get-form-more-div').html(text).fadeOut(200);
 }
 
 function _alert_secondary_close(){
@@ -110,9 +130,27 @@ function textField(id, title, type = "text") {
 }
 
 
+$(function () {
+	profilePixPreview = {
+	UpdatePreview: function (obj) {
+		if (!window.FileReader) {
+		// Handle browsers that don't support FileReader
+		console.error("FileReader is not supported.");
+		} else {
+		var reader = new FileReader();
+
+		reader.onload = function (e) {
+			$('#profile_preview_pix').prop("src", e.target.result);
+		};
+		reader.readAsDataURL(obj.files[0]);
+		}
+	},
+	};
+});
+
 
 function _passwordResetSuccesful(page) {
-	$("#get-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}) .fadeIn(500);
+	$("#get-form-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}) .fadeIn(500);
 	const action = "password_reset_successful";
 	const dataString = "action=" + action + "&page=" + page;
 
@@ -122,14 +160,14 @@ function _passwordResetSuccesful(page) {
 		data: dataString,
 		cache: false,
 		success: function (html) { 
-			$("#get-more-div").html(html);
+			$("#get-form-more-div").html(html);
 		},
 	});
 }
 
 
 function _getOtpForm(email) {
-	$("#get-more-div").html('<div class="ajax-loader"><img src="' + website_url +'/all-images/images/ajax-loader.gif"/></div>').css({'display': 'flex','justify-content': 'center','align-items': 'center'}).fadeIn(500);
+	$("#get-form-more-div").html('<div class="ajax-loader"><img src="' + website_url +'/all-images/images/ajax-loader.gif"/></div>').css({'display': 'flex','justify-content': 'center','align-items': 'center'}).fadeIn(500);
 	const action = "otp_form";
 	const dataString ="action=" + action +"&email=" + email;
 	$.ajax({
@@ -138,10 +176,56 @@ function _getOtpForm(email) {
 	  data: dataString,
 	  cache: false,
 	  success: function (html) {
-		$("#get-more-div").html(html);
+		$("#get-form-more-div").html(html);
 		$("#useremail").html(email);
 	  },
 	});
 }
 
 
+function _getForm(page) {
+	$("#get-form-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}) .fadeIn(500);
+		const action = "get_form";
+		const dataString = "action=" + action + "&page=" + page;
+		$.ajax({
+		type: "POST",
+		url: accountLocalUrl,
+		data: dataString,
+		cache: false,
+		success: function (html) {
+			$("#get-form-more-div").html(html);
+		},
+	});
+}
+
+function _getFormWithId(page, ids) {
+	$("#get-form-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}).fadeIn(500);
+	const action = "get_form_with_id";
+	const dataString = "action=" + action + "&page=" + page + "&ids=" + ids;
+
+	$.ajax({
+		type: "POST",
+		url: accountLocalUrl,
+		data: dataString,
+		cache: false,
+		success: function (html) {
+			$("#get-form-more-div").html(html);
+		},
+	});
+}
+
+
+function _getContent(content) {
+	$("#get-form-more-div").css({'display': 'flex','justify-content': 'center','align-items': 'center'}).fadeIn(500).fadeOut(500);
+	const action = 'get_content';
+	const dataString = 'action=' + action + '&content=' + content;
+	$.ajax({
+		type: "POST",
+		url: accountLocalUrl,
+		data: dataString,
+		cache: false,
+		success: function (html) {
+			$('#get-content').html(html);
+		}
+	});
+}

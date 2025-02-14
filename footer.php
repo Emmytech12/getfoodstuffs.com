@@ -18,7 +18,7 @@
             <div class="segment-div" data-aos="fade-up" data-aos-duration="1000">
                 <h3>Quick Link</h3>
                 <ul>
-                    <a href="<?php echo $website_url?>" title="Sign Up/Login">
+                    <a href="<?php echo $website_url?>/account/login" title="Sign Up/Login">
                     <li><i class="bi-arrow-right-short"></i>Sign Up/Login</li></a>
                     <a href="<?php echo $website_url?>/about" title="About Us">
                     <li><i class="bi-arrow-right-short"></i> About Us</li></a>
