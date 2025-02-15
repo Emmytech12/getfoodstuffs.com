@@ -441,7 +441,7 @@
             </ul>
 
             <div class="text_field_container dash_field_container">
-                <input class="text_field dash_text_field" type="text" id="searchStaff" onkeyup="filter('Staff')" placeholder="" title="Search Products, brands and categories" />
+                <input id="search_input" class="text_field dash_text_field" type="text" placeholder="" />
                 <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products and categories...</div>
             </div>
         </div>
@@ -482,5 +482,4 @@
             <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products and categories...</div>
         </div>
     </div>
-
 </header>
