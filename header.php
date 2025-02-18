@@ -441,8 +441,8 @@
             </ul>
 
             <div class="text_field_container dash_field_container">
-                <input id="search_input" class="text_field dash_text_field" type="text" placeholder="" />
-                <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products and categories...</div>
+                <input id="search_input" class="text_field dash_text_field" type="text" placeholder="" title="Type Here To Search Products"/>
+                <div class="placeholder dash_placeholder"><i class="bi-search"></i> Type Here To Search Products...</div>
             </div>
         </div>
 
@@ -452,14 +452,29 @@
                     <i class="bi-person"></i>
                 </div>
 
-                <ul>
-                    <li class="hidden">Account <i class="bi-chevron-down"></i></li>
+                <ul class="ul-hidden">
+                    <li class="li-hidden">Account <i class="bi-chevron-down"></i></li>
                 </ul> 
                 
                 <div class="hidden-container animated fadeIn">
-                    <ul>
+                    <ul class="ul-login">
                         <a href="<?php echo $website_url?>/account/login" title="Login/Sign Up">
-                        <li title="Login/Sign Up">Login/Sign Up </li></a>
+                        <li class="li-login" title="Login/Sign Up">Login/Sign Up </li></a>
+                    </ul> 
+
+                    <ul class="ul-dashbaord">
+                        <a href="<?php echo $website_url?>/account/dashboard" title="Dashboard">
+                        <li class="li-dashbaord" title="Dashboard"><i class="bi-speedometer2"></i> Dashboard</li></a>
+                        <a href="<?php echo $website_url?>/account/order-history" title="Order History">
+                        <li class="li-dashbaord" title="Order History"><i class="bi-clock"></i> Order History</li></a>
+                        <a href="<?php echo $website_url?>/account/wallet" title="Wallet History">
+                        <li class="li-dashbaord" title="Wallet History"><i class="bi-credit-card"></i> Wallet History</li></a>
+                        <a href="<?php echo $website_url?>/account/notifications" title="Notifications">
+                        <li class="li-dashbaord" title="Notifications"><i class="bi-bell"></i> Notifications</li></a>
+                        <a href="<?php echo $website_url?>/all-products" title="Shop Now">
+                        <li class="li-dashbaord" title="Shop Now"><i class="bi-cart"></i> Shop Now</li></a>
+                        <li class="li-dashbaord" title="Change Password" onclick="_getFormWithId('change_password');"><i class="bi-lock"></i> Change Password</li>
+                        <li class="li-dashbaord" title="Log Out" onclick="_getForm('logout_confirm_form');"><i class="bi-box-arrow-right"></i> Log Out</li>
                     </ul> 
                 </div>
             </div>
@@ -478,8 +493,8 @@
 
     <div class="header-div-in mobile-header-div-in">
         <div class="text_field_container dash_field_container">
-            <input class="text_field dash_text_field" type="text" id="searchStaff" onkeyup="filter('Staff')" placeholder="" title="Search Products, brands and categories" />
-            <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products and categories...</div>
+            <input class="text_field dash_text_field" type="text" id="searchStaff" onkeyup="filter('Staff')" placeholder="" title="Type Here To Search Products" />
+            <div class="placeholder dash_placeholder"><i class="bi-search"></i> Type Here To Search Products...</div>
         </div>
     </div>
 </header>

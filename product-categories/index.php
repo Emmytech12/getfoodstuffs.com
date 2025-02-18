@@ -39,7 +39,7 @@
                                     <h2>Product Categories</h2>
                                 </div>
 
-                                <div class="filter-wrapper product-cat-wrapper">
+                                <div class="search-wrapper">
                                     <div class="text_field_container dash_field_container">
                                         <input class="text_field dash_text_field" type="text" id="searchProductCat" onkeyup="filters('ProductCat')" placeholder="" title="Search Products category..." />
                                         <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products category...</div>

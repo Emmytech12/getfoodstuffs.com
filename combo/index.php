@@ -40,33 +40,16 @@
                                     <h2>All Combos</h2>
                                 </div>
 
-                                <div class="filter-wrapper">
-                                    <div class="text_field_container extension_text_field_container" id="selectContainer">
-                                        <select class="text_field selectSearch" placeholder="" id="searchStatus"
-                                            onclick="_selectOption('searchStatus')" style="opacity: 1;">
-                                            <option selected="selected" value="">Lowest to highest price</option>
-                                        </select>
-
-                                        <div class="placeholder">Sort By:</div>
-                                        <div class="searchPanel addSearchPanel animated fadeIn" id="searchPanel_searchStatus"
-                                            style="display: none;">
-                                            <input class="searchTxt" placeholder="Type here to search"
-                                                id="txtSearchValue_searchStatus" autocomplete="off"
-                                                onkeyup="filter('searchStatus')">
-                                            <ul id="searchList_searchStatus" data-aos="fade-up" data-aos-duration="200"
-                                                class="aos-init aos-animate">
-                                                <li onclick="_clickOption('searchList_searchStatus', 'Lowest to highest price', 'Lowest to highest price')">Lowest to highest price</li>
-                                                <li onclick="_clickOption('searchList_searchStatus', 'Highest to lowest price', 'Highest to lowest price')">Highest to lowest price</li>
-                                                <li onclick="_clickOption('searchList_searchStatus', 'Most Popular', 'Most Popular')">Most Popular</li>
-                                                <li onclick="_clickOption('searchList_searchStatus', 'A-Z', 'A-Z')">A-Z</li>
-                                            </ul>
-                                        </div>
+                                <div class="search-wrapper">
+                                    <div class="text_field_container dash_field_container">
+                                        <input class="text_field dash_text_field" type="text" id="searchProducts" onkeyup="filters('Products')" placeholder="" title="Search Products category..." />
+                                        <div class="placeholder dash_placeholder"><i class="bi-search"></i> Search Products Combo</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="product-wrapper main-product-wrapper" data-aos="fade-in" data-aos-duration="1200">
-                                <div class="product-container main-product-conatiner combo-product-conatiner">
+                                <div class="product-container main-product-conatiner">
                                     <div class="div-in">
                                         <div class="image-container">
                                             <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
@@ -97,7 +80,7 @@
                                     </div>
                                 </div>
 
-                                <div class="product-container main-product-conatiner combo-product-conatiner">
+                                <div class="product-container main-product-conatiner">
                                     <div class="div-in">
                                         <div class="image-container">
                                             <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
@@ -128,7 +111,7 @@
                                     </div>
                                 </div>
                       
-                                <div class="product-container main-product-conatiner combo-product-conatiner">
+                                <div class="product-container main-product-conatiner ">
                                     <div class="div-in">
                                         <div class="image-container">
                                             <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
@@ -159,7 +142,7 @@
                                     </div>
                                 </div>  
 
-                                <div class="product-container main-product-conatiner combo-product-conatiner">
+                                <div class="product-container main-product-conatiner">
                                     <div class="div-in">
                                         <div class="image-container">
                                             <img src="<?php echo $website_url ?>/all-images/products-pix/combo_pix.jpg" alt="<?php echo $thename ?> Slide Image" />
@@ -179,7 +162,7 @@
 
                                             <div class="price-div">
                                                 Price
-                                                <span>₦120,000.00</span>
+                                                <span>₦140,000.00</span>
                                             </div>
                                             
                                             <a href="<?php echo $website_url?>" title="View Details">

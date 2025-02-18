@@ -780,7 +780,7 @@
 }
 
 .table-div .table .tb-row span.CANCELLED{
-	color: var(--sub-text-color);
+	color:rgba(255, 0, 0);
     background: none;
 }
 
@@ -797,11 +797,11 @@
 }
 
 .table-div .table .tb-row .READY{
-	color: #138D75;
+	color: rgba(19, 141, 117)
 }
 
 .table-div .table .tb-row .order-status.PENDING{
-    color: #8E44AD;
+	color:rgba(238, 139, 19);
     background: none;
 }
 
@@ -823,13 +823,13 @@
 }
 
 .table-div .table .PENDING{
-	background:rgba(142, 68, 173, .1);
-	color:#8E44AD;
+	background:rgba(238, 139, 19, .1);
+	color:rgba(238, 139, 19);
 }
 
 .table-div .table .CANCELLED{
-	background:rgba(252, 164, 57,.1);
-	color:rgba(218, 90, 31, 0.87);
+	background:rgba(255, 0, 0,.1);
+	color:rgba(255, 0, 0);
 }
 
 

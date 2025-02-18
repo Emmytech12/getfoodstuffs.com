@@ -726,6 +726,9 @@
                         <div class="content" data-aos="fade-up" data-aos-duration="1400">
                             <h2>What Our Customers Say About Us</h2>
                             <p>Discover what our customers have to say about their experience with Get Food Stuffs and how our platform has made it easier for them to shop for fresh foods, groceries, and provisions online.</p>
+                            <div>
+                                <button class="btn" title="Write a Review">Write a Review <i class="bi-chevron-right"></i></button>
+                            </div>
                         </div>
 
 

@@ -259,7 +259,7 @@ function _clickOption(selectedOption, id, value) {
 
 function filters(selectBoxId) {
 	var valThis = $('#search'+selectBoxId).val();
-	$('#fetchAll'+selectBoxId+' > a').each(function() {
+	$('#fetchAll'+selectBoxId+' > a, .main-product-conatiner').each(function() {
 		var text = $(this).text();
 		(text.toLowerCase().indexOf(valThis.toLowerCase()) > -1) ? $(this).show(): $(this).hide();
       });
